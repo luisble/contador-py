@@ -2,7 +2,7 @@
 
 
 
-Exemplo de uma aplicação Python (PySpark) para contar as palavras de um arquivo texto.
+Exemplo de uma aplicação Python para contar as palavras de um arquivo texto. Neste exemplo há os passos para executá-la em um Cluster Dataproc no Google Cloud Platform (GCP) com Hadoop e Spark, através de um job PySpark.
 
 1) Crie um cluster hadoop/spark no GCP usando o Dataproc. Exemplo: cluster-do-ble
 
@@ -32,4 +32,6 @@ Exemplo de uma aplicação Python (PySpark) para contar as palavras de um arquiv
 
 8) O conteúdo de part-00000 estará a contagem de palavras referente ao arquivo livro.txt
 
-9) O retorno deve ser equivalente ao conteúdo resultado.txt neste repositório.
+9) O retorno deve ser equivalente ao conteúdo resultado_part-00000.txt neste repositório.
+
+10) No arquivo  **resultado.txt** consta apenas as **10 palavras mais encontradas** no arquivo.
